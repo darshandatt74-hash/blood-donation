@@ -20,8 +20,8 @@ Blood Donation Management System is a web application that helps users find bloo
 - HTML
 - CSS
 - JavaScript
-- PHP
-- MySQL
+- React.js
+- Firebase
 
 ---
 
