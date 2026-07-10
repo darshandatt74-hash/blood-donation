@@ -1,0 +1,51 @@
+ .admin-page{
+padding:30px;
+}
+
+.admin-title{
+margin-bottom:20px;
+}
+
+.hospital-form{
+display:flex;
+gap:10px;
+margin-bottom:20px;
+}
+
+.hospital-form input{
+padding:10px;
+border:1px solid #ddd;
+border-radius:6px;
+}
+
+.hospital-form button{
+background:#e53935;
+color:white;
+border:none;
+padding:10px 16px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.hospital-table{
+width:100%;
+border-collapse:collapse;
+background:white;
+box-shadow:0 4px 10px rgba(0,0,0,0.08);
+}
+
+.hospital-table th,
+.hospital-table td{
+padding:12px;
+border-bottom:1px solid #eee;
+text-align:left;
+}
+
+.delete-btn{
+background:#d32f2f;
+color:white;
+border:none;
+padding:6px 12px;
+border-radius:6px;
+cursor:pointer;
+}

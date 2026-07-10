@@ -1,0 +1,53 @@
+ .admin-title {
+  margin-bottom: 20px;
+  color: #b71c1c;
+}
+
+/* TABLE */
+.admin-user-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.admin-user-table th,
+.admin-user-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.admin-user-table th {
+  background: #f5f5f5;
+}
+
+/* BUTTON */
+.delete-btn {
+  background: #c62828;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #b71c1c;
+}
+
+.search-input{
+padding:10px 14px;
+border-radius:8px;
+border:1px solid #ddd;
+margin-bottom:15px;
+width:260px;
+outline:none;
+transition:0.3s;
+}
+
+.search-input:focus{
+border-color:#c62828;
+box-shadow:0 0 5px rgba(198,40,40,0.3);
+}

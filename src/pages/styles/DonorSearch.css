@@ -1,0 +1,140 @@
+.donor-container {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #d32f2f;
+}
+
+/* FILTER */
+.filter-section {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.filter-section input,
+.filter-section select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  min-width: 200px;
+}
+
+.available-toggle {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* GRID */
+.donor-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* FIX: always 2 cards */
+  gap: 25px;
+  align-items: stretch;
+}
+
+/* CARD */
+.donor-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  position: relative;
+  transition: 0.3s ease;
+}
+
+.status-badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.available {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.not-available {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.blood-group {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d32f2f;
+}
+
+.contact-buttons {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.call-btn,
+.whatsapp-btn {
+  flex: 1;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.call-btn {
+  background: #1976d2;
+  color: white;
+}
+
+.call-btn:hover {
+  background: #1565c0;
+}
+
+.whatsapp-btn {
+  background: #25d366;
+  color: white;
+}
+
+.whatsapp-btn:hover {
+  background: #1ebe5d;
+}
+
+
+/* EMPTY */
+.empty-state {
+  text-align: center;
+  grid-column: 1/-1;
+  color: #777;
+}
+
+/* PAGINATION */
+.pagination {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination .active {
+  background: #d32f2f;
+  color: white;
+}

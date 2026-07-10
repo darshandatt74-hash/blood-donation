@@ -1,0 +1,64 @@
+.admin-wrapper{
+display:flex;
+height:100vh;
+}
+
+/* SIDEBAR */
+
+.admin-sidebar{
+width:240px;
+background:linear-gradient(180deg,#c62828,#b71c1c);
+color:white;
+display:flex;
+flex-direction:column;
+padding:25px;
+box-shadow:4px 0 20px rgba(0,0,0,0.2);
+}
+
+.admin-logo{
+font-size:22px;
+font-weight:600;
+margin-bottom:40px;
+}
+
+.admin-link{
+display:block;
+padding:12px 15px;
+margin-bottom:10px;
+border-radius:8px;
+color:white;
+text-decoration:none;
+transition:0.3s;
+}
+
+.admin-link:hover{
+background:white;
+color:#c62828;
+transform:translateX(5px);
+}
+
+/* LOGOUT */
+
+.logout-btn{
+margin-top:auto;
+padding:12px;
+border:none;
+border-radius:8px;
+background:black;
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+.logout-btn:hover{
+background:#333;
+}
+
+/* CONTENT */
+
+.admin-content{
+flex:1;
+padding:40px;
+background:#f4f6fb;
+overflow:auto;
+}

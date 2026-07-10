@@ -1,0 +1,105 @@
+.admin-title{
+font-size:28px;
+margin-bottom:30px;
+font-weight:600;
+}
+
+.stats-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.stat-card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,0.08);
+text-align:center;
+transition:0.3s;
+}
+
+.stat-card:hover{
+transform:translateY(-5px);
+box-shadow:0 12px 30px rgba(0,0,0,0.15);
+}
+
+.stat-card h2{
+font-size:36px;
+margin:0;
+}
+
+.stat-card p{
+color:#777;
+margin-top:8px;
+}
+
+.pending{
+border-top:4px solid orange;
+}
+
+.approved{
+border-top:4px solid green;
+}
+
+/* ACTIVITY */
+
+.recent-activity{
+margin-top:40px;
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,0.08);
+}
+
+.recent-activity ul{
+padding-left:20px;
+}
+
+.recent-activity li{
+margin-bottom:10px;
+}
+
+.top-donors-card{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,0.08);
+width:300px;
+margin-top:30px;
+}
+
+.top-donors-card ul{
+padding-left:20px;
+}
+
+.top-donors-card li{
+margin-bottom:8px;
+font-weight:500;
+}
+
+.chart-card{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,0.08);
+animation:fadeIn 0.5s ease;
+}
+
+.location-card{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,0.08);
+width:300px;
+margin-top:30px;
+}
+
+.location-card ul{
+padding-left:20px;
+}
+
+.location-card li{
+margin-bottom:8px;
+font-weight:500;
+}

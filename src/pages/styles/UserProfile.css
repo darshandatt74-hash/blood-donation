@@ -1,0 +1,67 @@
+ .profile-wrapper {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+.profile-wrapper h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.email-text {
+  text-align: center;
+  color: #777;
+  margin-bottom: 25px;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #f5f7fa;
+  padding: 12px 14px;
+  border-radius: 10px;
+}
+
+.input-group input,
+.input-group select {
+  border: none;
+  background: transparent;
+  width: 100%;
+  outline: none;
+  font-size: 15px;
+}
+
+.input-group svg {
+  color: #c62828;
+}
+
+.save-btn {
+  margin-top: 15px;
+  background: #c62828;
+  color: #fff;
+  border: none;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.message {
+  text-align: center;
+  margin-top: 10px;
+  color: green;
+}
