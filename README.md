@@ -2,8 +2,20 @@
 
 Blood Donation Management System is a web application that helps users find blood donors and manage blood requests efficiently.
 
----
+## Live Demo
+https://your-project.vercel.app
 
+## GitHub Repository
+https://github.com/your-username/blood-donation
+
+## Tech Stack
+- React.js
+- Firebase Authentication
+- Firestore
+- CSS
+- Vercel
+
+  
 ## 🚀 Features
 
 - 🩸 Donor Registration
@@ -12,17 +24,6 @@ Blood Donation Management System is a web application that helps users find bloo
 - 👤 User Authentication
 - 📋 Donor Dashboard
 - 📱 Responsive Design
-
----
-
-## 🛠️ Technologies Used
-
-- HTML
-- CSS
-- JavaScript
-- React.js
-- Firebase
-
 ---
 
 ## 📸 Project Screenshots
